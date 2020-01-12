@@ -1,9 +1,9 @@
-## Vigenère Cipher Cracker
-`vigenere_cipher_crack_tool.py` is a simple script that cracks cipher texts encrypted with `Vigenère Cipher`,
+# Vigenère Cipher Cracker
+`vigenere_cipher_crack_tool.py` is a script that breaks cipher texts encrypted with `Vigenère Cipher`,
 without knowing the key length or any additional information.
 
-### How to use
-#### Prerequisites
+## Getting Started
+### Prerequisites
 ```
 Python version >= 3.8
 pip install requirements.txt
@@ -37,7 +37,7 @@ DAZFI SFSPA VQLSN PXYSZ WXALC DAFGQ UISMT PHZGA MKTTF TCCFX KFCRG GLPFE TZMMM ZO
 #### Note:
 You could also look into an easier way of getting the keyword, using `Chi-Squared statistic` based on letter count as opposed to letter probability.
 
-#### Checkout a list of useful links: 
+### Checkout a list of useful links: 
 * [Chi Squared statistic](http://practicalcryptography.com/cryptanalysis/text-characterisation/chi-squared-statistic/)
 * [Cryptanalysis Using n-gram](http://nob.cs.ucdavis.edu/classes/ecs155-2013-04/extras/vigenere.html)
 * [Index of Coincidence (1)](http://www.crypto-it.net/eng/theory/index-of-coincidence.html)
@@ -45,11 +45,11 @@ You could also look into an easier way of getting the keyword, using `Chi-Square
 * [Cryptanalysis on Vigenere Cipher](http://practicalcryptography.com/cryptanalysis/stochastic-searching/cryptanalysis-vigenere-cipher/)
 
 
-## Vigenère Cipher
+# Vigenère Cipher
 The other script `vigenere_cipher_tool.py` is just a simple algorithm that allows you to decipher and encipher cipher texts and plain texts,
 with a known `secret key`
 
-### How to use
+## Getting Started
 * Run the script, and enter the one of the options displayed
 ```
 1. Encrypt
